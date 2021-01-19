@@ -49,7 +49,7 @@ function App() {
         <Grid container>
           <img
             src={covidLogo}
-            alt="Covid19 Logo"
+            alt="Covid19-Logo"
             style={{
               width: 100,
               height: 100,
