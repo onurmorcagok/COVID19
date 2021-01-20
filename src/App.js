@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const [countries, setCountries] = useState([]);
-  const [country, setCountry] = useState(["turkey"]);
+  const [country, setCountry] = useState(["turkey"]); // Default Country
 
   useEffect(() => {
     const fetchCountriesData = async () => {
