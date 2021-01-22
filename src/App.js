@@ -82,7 +82,7 @@ function App() {
         <Grid container>
           <img
             src={maskLogo}
-            alt="Mask Logo"
+            alt="maskLogo"
             style={{
               width: 100,
               height: 100,
@@ -93,7 +93,7 @@ function App() {
           ></img>
           <img
             src={socialLogo}
-            alt="Socail Logo"
+            alt="socailLogo"
             style={{
               width: 100,
               height: 100,
@@ -104,7 +104,7 @@ function App() {
           ></img>
           <img
             src={cleanLogo}
-            alt="Clean Logo"
+            alt="cleanLogo"
             style={{
               width: 100,
               height: 100,
