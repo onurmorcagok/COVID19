@@ -5,6 +5,8 @@ import { fetchDailyData } from "../api";
 
 const AreaChart = ({ country }) => {
   const [dailyData, setDailyData] = useState([]);
+
+  //useEffect Hooks
   useEffect(() => {
     const fetchCountryDailyData = async () => {
       const data = await fetchDailyData(country);
@@ -12,6 +14,7 @@ const AreaChart = ({ country }) => {
     };
     fetchCountryDailyData();
   }, [country]);
+  
   return (
     <div id="chart">
       <Chart
