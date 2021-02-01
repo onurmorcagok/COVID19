@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Container from "@material-ui/core/Container";
-
 import Grid from "@material-ui/core/Grid";
-
 import covidLogo from "./images/covid-19.svg";
 import maskLogo from "./images/mask.svg";
 import socialLogo from "./images/social.svg";
 import cleanLogo from "./images/clean.svg";
-
 import { fetchCountries } from "./api";
-
 import { makeStyles } from "@material-ui/core/styles";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
