@@ -13,7 +13,6 @@ import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import AreaChart from "./components/AreaChart";
 import Box from "@material-ui/core/Box";
-
 import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
