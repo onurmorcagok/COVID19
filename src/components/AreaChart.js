@@ -4,6 +4,7 @@ import Chart from "react-apexcharts";
 import { fetchDailyData } from "../api";
 
 const AreaChart = ({ country }) => {
+  
   const [dailyData, setDailyData] = useState([]);
 
   //useEffect Hooks
